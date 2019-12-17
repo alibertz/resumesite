@@ -82,7 +82,7 @@
 }
 
 #lang-list-elem li:hover {
-  color: #b13655;
+  color: #ff396a;
   transition: .8s;
 }
 
@@ -229,6 +229,17 @@ padding-bottom: 1.25rem;
   #about-me-p {
       line-height: 2.4rem;
       letter-spacing: .08rem;
+      margin-top: 2.3rem;
+  }
+
+  #projects h4 {
+    border-bottom: 1px solid lightgray;
+    letter-spacing: .5rem;
+    color: #513662;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    padding-top: 4rem;
   }
 
   .skills-border {
@@ -413,6 +424,17 @@ padding-bottom: 1.25rem;
       font-weight: bolder;
       padding-top: 7rem;
       text-align: center;
+  }
+
+  #projects h4 {
+    border-bottom: 1px solid lightgray;
+    letter-spacing: .5rem;
+    color: #513662;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    text-align: center;
   }
 
   #about-me-p {

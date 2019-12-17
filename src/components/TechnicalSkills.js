@@ -9,7 +9,7 @@ class TechnicalSkills extends Component {
         },
 
         showIndicators: {
-            frontEnd: {color: '#b13655', transition: '0'},
+            frontEnd: {color: '#ff396a', transition: '0'},
             backEnd: {color: '#707070', transition: '0'},
             other: {color: '#707070', transition: '0'}
         },
@@ -18,7 +18,7 @@ class TechnicalSkills extends Component {
     setList = (list) => {
         let choice = list;
         const trans = '0.8s';
-        const highlightColor = '#b13655';
+        const highlightColor = '#ff396a';
         const restColor = '#707070';
         switch (choice) {
             case 'frontEnd':

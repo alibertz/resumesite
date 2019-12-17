@@ -1,0 +1,111 @@
+.card {
+    width: 75%;
+    background-color: #fff;
+    background: linear-gradient(#f1f1f1, rgb(238, 249, 255));
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem auto;
+  }
+    
+  .card .general {
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    padding-top: 0;
+    position: relative;
+  }
+
+  .card img {
+    width: 100%;
+    position: relative;
+  }
+
+  .card h2 {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  
+  .card .general p {
+    padding-bottom: 2rem;
+  }
+
+  .card .general .stats div.title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-bottom:.4rem;
+  }
+  
+  .card .general .stats div.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+  
+  .card .general .stats div.value.infinity {
+    font-size: 2.5rem;
+  }
+
+  .card .general .stats {
+    font-size: 2rem;
+    position: relative;
+    width: 70%;
+    margin: 1rem auto;
+    top: auto;
+    color: rgb(126, 126, 126);
+    text-align: center !important;
+}
+
+.card .general .stats > div {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.card .general .stats i {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    width: 90%;
+    height: 150px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 3rem auto 0 auto;
+    
+  }
+    
+  .card h2 {
+    font-size: 1.5rem;
+    margin: 20% auto;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+  }
+  .card .general p, span{
+    display: none;
+  }
+  .card .general {
+    left: 0;
+    margin-left: 25%;
+    overflow: hidden;
+    width: 70%;
+    position: relative;
+    padding: 0;
+  }
+  
+}
