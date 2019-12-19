@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/resumesite/static/css/main.8edeb33b.chunk.css",
-    "main.js": "/resumesite/static/js/main.622c7bf3.chunk.js",
-    "main.js.map": "/resumesite/static/js/main.622c7bf3.chunk.js.map",
+    "main.css": "/resumesite/static/css/main.b58ed879.chunk.css",
+    "main.js": "/resumesite/static/js/main.de315924.chunk.js",
+    "main.js.map": "/resumesite/static/js/main.de315924.chunk.js.map",
     "runtime~main.js": "/resumesite/static/js/runtime~main.6645f16d.js",
     "runtime~main.js.map": "/resumesite/static/js/runtime~main.6645f16d.js.map",
-    "static/js/2.e703e8cc.chunk.js": "/resumesite/static/js/2.e703e8cc.chunk.js",
-    "static/js/2.e703e8cc.chunk.js.map": "/resumesite/static/js/2.e703e8cc.chunk.js.map",
+    "static/js/2.ddb0a915.chunk.js": "/resumesite/static/js/2.ddb0a915.chunk.js",
+    "static/js/2.ddb0a915.chunk.js.map": "/resumesite/static/js/2.ddb0a915.chunk.js.map",
     "index.html": "/resumesite/index.html",
-    "precache-manifest.156f74b8b18c986f07f548093b1b4a3a.js": "/resumesite/precache-manifest.156f74b8b18c986f07f548093b1b4a3a.js",
+    "precache-manifest.5eb606fad7815795f7deaaf3aa1da008.js": "/resumesite/precache-manifest.5eb606fad7815795f7deaaf3aa1da008.js",
     "service-worker.js": "/resumesite/service-worker.js",
-    "static/css/main.8edeb33b.chunk.css.map": "/resumesite/static/css/main.8edeb33b.chunk.css.map",
+    "static/css/main.b58ed879.chunk.css.map": "/resumesite/static/css/main.b58ed879.chunk.css.map",
+    "static/media/GitHub-Mark-Light-64px.png": "/resumesite/static/media/GitHub-Mark-Light-64px.ae8aff4c.png",
     "static/media/artistwebsite.PNG": "/resumesite/static/media/artistwebsite.3192f0d3.PNG",
-    "static/media/App.css": "/resumesite/static/media/bg.7dff06d0.jpg",
     "static/media/bostonsdeals.PNG": "/resumesite/static/media/bostonsdeals.c3b040d7.PNG",
     "static/media/weatherapp.PNG": "/resumesite/static/media/weatherapp.8ae7fd4e.PNG"
   }
