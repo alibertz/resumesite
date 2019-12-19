@@ -68,6 +68,7 @@ class Timeline extends Component {
             )}); 
         return (
             <section id="experience">
+
                 <div className="container-fluid elem">
                     <div className="container">
                         <h3 style={{borderBottom: '1px solid rgb(117, 117, 117)'}}>EXPERIENCE & EDUCATION</h3>

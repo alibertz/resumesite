@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div id="bg-sq1" />
       <MainContent />
+      
       <Footer />
     </div>
   );

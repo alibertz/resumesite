@@ -1,23 +1,52 @@
-.card {
-    width: 75%;
+  .card {
+    width: 70%;
     background-color: #fff;
-    background: linear-gradient(#f1f1f1, rgb(238, 249, 255));
+    background: linear-gradient(#ffffff, #ebfaff);
     box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
     border-radius: 6px;
     overflow: hidden;
     position: relative;
-    margin: 1rem auto;
+    margin: 3rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3rem;
+    grid-auto-rows: minmax(300px, auto);
+    padding: 1.5rem;
+    z-index: 10;
   }
+  .card .info {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .card .description {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .card .description a {
+    padding: .6rem;
+    border: none;
+    margin: 2rem;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #533168;
     
-  .card .general {
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    box-sizing: border-box;
-    padding: 1rem 2rem;
-    padding-top: 0;
-    position: relative;
+    
+  }
+
+  .card .description a:hover {
+    text-decoration: none;
+    
+    transition: .3s;
+  }
+
+  .card .description p {
+    margin: 2rem 2rem 0 2rem;
+    padding-right: 2rem;
   }
 
   .card img {
@@ -30,11 +59,11 @@
     padding: 2rem 1rem 1rem 1rem;
   }
   
-  .card .general p {
+  .card p {
     padding-bottom: 2rem;
   }
 
-  .card .general .stats div.title {
+  .card .stats div.title {
     font-size: 0.75rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -42,70 +71,100 @@
     padding-bottom:.4rem;
   }
   
-  .card .general .stats div.value {
+  .card .stats div.value {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.5rem;
   }
   
-  .card .general .stats div.value.infinity {
+  .card .stats div.value.infinity {
     font-size: 2.5rem;
   }
 
-  .card .general .stats {
+  .card .stats {
     font-size: 2rem;
     position: relative;
-    width: 70%;
-    margin: 1rem auto;
-    top: auto;
     color: rgb(126, 126, 126);
     text-align: center !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
-.card .general .stats > div {
+.card .stats > div {
   position: relative;
   display: inline-block;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 2rem;
 }
 
-.card .general .stats i {
+.card .stats i {
   display: block;
 }
 
-@media only screen and (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1200px) {
+  /* tablet */
   .card {
     width: 90%;
-    height: 150px;
+    
     background-color: #fff;
-    background: linear-gradient(#f8f8f8, #fff);
+    background: linear-gradient(#ffffff, #ebfaff);
     box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
     border-radius: 6px;
-    overflow: hidden;
+    
     position: relative;
     margin: 3rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
     
-  }
-    
-  .card h2 {
-    font-size: 1.5rem;
-    margin: 20% auto;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    padding: 0;
-  }
-  .card .general p, span{
-    display: none;
-  }
-  .card .general {
-    left: 0;
-    margin-left: 25%;
-    overflow: hidden;
-    width: 70%;
-    position: relative;
-    padding: 0;
   }
   
+  .card .info {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card .info .stats {
+    position: relative;
+  }
+
+  .card h2 {
+    font-size: 1.7rem;
+  }
+  
+}
+
+@media (max-width: 766px) {
+  .card {
+    width: 90%;
+    
+    background-color: #fff;
+    background: linear-gradient(#ffffff, #ebfaff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    padding: 0;
+    position: relative;
+    margin: 3rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    grid-auto-rows: minmax(100, auto);
+  }
+
+  .card .description {
+    padding-bottom: 2rem;
+  }
+
+  .card .description p {
+    padding: 1rem;
+    text-align: justify;
+    margin-top: 0 !important;
+  }
+  .card .description a {
+    margin: 2rem .7rem;
+    padding: .4rem;
+  }
+  .card .info .stats {
+    width: 75%;
+  }
 }
