@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/resumesite/static/css/main.6449a7c6.chunk.css",
-    "main.js": "/resumesite/static/js/main.f7ef083f.chunk.js",
-    "main.js.map": "/resumesite/static/js/main.f7ef083f.chunk.js.map",
-    "runtime~main.js": "/resumesite/static/js/runtime~main.6645f16d.js",
-    "runtime~main.js.map": "/resumesite/static/js/runtime~main.6645f16d.js.map",
-    "static/js/2.bf3997b1.chunk.js": "/resumesite/static/js/2.bf3997b1.chunk.js",
-    "static/js/2.bf3997b1.chunk.js.map": "/resumesite/static/js/2.bf3997b1.chunk.js.map",
+    "main.css": "/resumesite/static/css/main.94fa50b7.chunk.css",
+    "main.js": "/resumesite/static/js/main.bea08507.chunk.js",
+    "main.js.map": "/resumesite/static/js/main.bea08507.chunk.js.map",
+    "runtime-main.js": "/resumesite/static/js/runtime-main.5a378276.js",
+    "runtime-main.js.map": "/resumesite/static/js/runtime-main.5a378276.js.map",
+    "static/js/2.3e1d22d9.chunk.js": "/resumesite/static/js/2.3e1d22d9.chunk.js",
+    "static/js/2.3e1d22d9.chunk.js.map": "/resumesite/static/js/2.3e1d22d9.chunk.js.map",
     "index.html": "/resumesite/index.html",
-    "precache-manifest.93336880abbebe6e096e49be6ac2e95f.js": "/resumesite/precache-manifest.93336880abbebe6e096e49be6ac2e95f.js",
+    "precache-manifest.eb51db37034875de88403bf9a76c0add.js": "/resumesite/precache-manifest.eb51db37034875de88403bf9a76c0add.js",
     "service-worker.js": "/resumesite/service-worker.js",
-    "static/css/main.6449a7c6.chunk.css.map": "/resumesite/static/css/main.6449a7c6.chunk.css.map",
+    "static/css/main.94fa50b7.chunk.css.map": "/resumesite/static/css/main.94fa50b7.chunk.css.map",
+    "static/js/2.3e1d22d9.chunk.js.LICENSE": "/resumesite/static/js/2.3e1d22d9.chunk.js.LICENSE",
     "static/media/GitHub-Mark-Light-64px.png": "/resumesite/static/media/GitHub-Mark-Light-64px.ae8aff4c.png",
     "static/media/artistwebsite.PNG": "/resumesite/static/media/artistwebsite.3192f0d3.PNG",
     "static/media/bostonsdeals.PNG": "/resumesite/static/media/bostonsdeals.c3b040d7.PNG",
     "static/media/weatherapp.PNG": "/resumesite/static/media/weatherapp.8ae7fd4e.PNG"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a378276.js",
+    "static/js/2.3e1d22d9.chunk.js",
+    "static/css/main.94fa50b7.chunk.css",
+    "static/js/main.bea08507.chunk.js"
+  ]
 }
