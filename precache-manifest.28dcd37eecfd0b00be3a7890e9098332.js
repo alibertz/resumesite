@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85624012856ef3d72440775d3d5583e1",
+    "revision": "f821d19db6d46ec6feab4fddeb80e8ad",
     "url": "/resumesite/index.html"
   },
   {
-    "revision": "50858c7cea136077d4db",
-    "url": "/resumesite/static/css/main.34ce2c83.chunk.css"
+    "revision": "9d9adc1f2ee5d380005d",
+    "url": "/resumesite/static/css/main.a8a2352f.chunk.css"
   },
   {
     "revision": "8dde355f527ce8fa58d9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resumesite/static/js/2.73aecf86.chunk.js.LICENSE"
   },
   {
-    "revision": "50858c7cea136077d4db",
-    "url": "/resumesite/static/js/main.7e1cd4f3.chunk.js"
+    "revision": "9d9adc1f2ee5d380005d",
+    "url": "/resumesite/static/js/main.1a358c9a.chunk.js"
   },
   {
     "revision": "e5800c98b532f2649de7",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c3b040d77870ecde99be38dada6861dd",
     "url": "/resumesite/static/media/bostonsdeals.c3b040d7.PNG"
+  },
+  {
+    "revision": "15f6f83344f733021210203c29001de3",
+    "url": "/resumesite/static/media/kevin_aliberti_resume.15f6f833.pdf"
   },
   {
     "revision": "8ae7fd4e77735276f767c1f5df2ed82a",
